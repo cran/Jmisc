@@ -14,6 +14,7 @@
 #' generateSignificance(x_estimates)
 #' generateSignificance(x_estimates,row_names=c("mean0","mean1") )
 generateSignificance<-function(x,row_names){
+	row.names(x) = NULL 
 	x<-data.frame(x)
 	x$t <- x[,1] / x[,2]
 	x$p_value <- 2 * (1 - pnorm( abs(x$t) ) )

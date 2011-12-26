@@ -16,17 +16,29 @@
 #' expect_equivalent(splitBy((1:10)*10,c(2,3,4)) , list( c(10,20), c(30,40,50) ,c(60,70,80,90)  ))
 #' }
 
-splitBy<-function(x,by){
-	extra<-length(x)-sum(by)
-	if (extra<0)
-		stop("length(x) is smaller than sum(by)")
+# splitBy<-function(x,by){
+# 	extra<-length(x)-sum(by)
+# 	if (extra<0)
+# 		stop("length(x) is smaller than sum(by)")
 
-	if (extra>0)
-		x<-head(x,sum(by))
+# 	if (extra>0)
+# 		x<-head(x,sum(by))
 
-	index_0<-c(rep(1:length(by),times=by) )
+# 	index_0<-c(rep(1:length(by),times=by) )
 
-	split(x,index_0)
+# 	split(x,index_0)
+# }
+splitBy = function(x,by){
+  start = c(0,head(cumsum(by),-1)) +1
+  end = cumsum(by)
+  out = list()
+  for (i in 1:length(by)){
+    if (is.matrix(x))
+      out[[i]] = x[start[i]:end[i],]
+    else 
+      out[[i]] = x[start[i]:end[i]]
+  }
+  out
 }
 
 # splitBy<-function(x,by){

@@ -2,7 +2,7 @@
 \alias{generateSignificance}
 \title{Generate t-statistics, p-value and significance}
 \usage{
-  generateSignificance(x, row_names)
+generateSignificance(x, row_names)
 }
 \arguments{
   \item{x}{A matrix or data.frame}
@@ -10,12 +10,12 @@
   \item{row_names}{names of row}
 }
 \value{
-  a data.frame
+a data.frame
 }
 \description{
-  Generate t-statistics, p-value and significance from
-  estimates and its sd. Estimates and its SD is the first
-  and second column respectively
+Generate t-statistics, p-value and significance from
+estimates and its sd. Estimates and its SD is the first and
+second column respectively
 }
 \examples{
 n<-1000
@@ -25,6 +25,6 @@ generateSignificance(x_estimates)
 generateSignificance(x_estimates,row_names=c("mean0","mean1") )
 }
 \author{
-  TszKin Julian Chan \email{ctszkin@gmail.com}
+TszKin Julian Chan \email{ctszkin@gmail.com}
 }
 

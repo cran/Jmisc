@@ -2,7 +2,7 @@
 \alias{recode}
 \title{Recode the value of a vector}
 \usage{
-  recode(x, from, to)
+recode(x, from, to)
 }
 \arguments{
   \item{x}{a \code{vector} or \code{matrix}}
@@ -12,10 +12,10 @@
   \item{to}{new value of \code{x}}
 }
 \value{
-  recoded \code{x}
+recoded \code{x}
 }
 \description{
-  Recode the value of a \code{vector} or \code{matrix}.
+Recode the value of a \code{vector} or \code{matrix}.
 }
 \examples{
 x=rep(1:5,each=2)
@@ -23,6 +23,6 @@ recode(x,from=1:5,to=5:1)
 recode(x,from=1:5,to=11:15)
 }
 \author{
-  TszKin Julian Chan \email{ctszkin@gmail.com}
+TszKin Julian Chan \email{ctszkin@gmail.com}
 }
 

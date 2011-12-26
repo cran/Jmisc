@@ -2,7 +2,7 @@
 \alias{shift}
 \title{shift a vector by \code{shift_by} unit}
 \usage{
-  shift(x, shift_by)
+shift(x, shift_by)
 }
 \arguments{
   \item{x}{a vector}
@@ -10,7 +10,7 @@
   \item{shift_by}{number of shift}
 }
 \description{
-  Repeat a vector by row
+Repeat a vector by row
 }
 \examples{
 d<-data.frame(x=1:15)
@@ -20,6 +20,6 @@ d$df_lead2<-shift(d$x,2)
 d$df_lag2<-shift(d$x,-2)
 }
 \author{
-  TszKin Julian Chan \email{ctszkin@gmail.com}
+TszKin Julian Chan \email{ctszkin@gmail.com}
 }
 
