@@ -1,7 +1,7 @@
 Package: Jmisc
 Type: Package
 Title: Julian Miscellaneous Function
-Version: 0.2
+Version: 0.3
 Date: 2011-12-26
 Author: TszKin Julian Chan <ctszkin@gmail.com>
 Maintainer: TszKin Julian Chan <ctszkin@gmail.com>
@@ -10,6 +10,6 @@ License: GPL (>= 2)
 LazyLoad: yes
 Depends: testthat
 BugReports: TszKin Julian Chan <ctszkin@gmail.com>
-Packaged: 2012-03-14 15:54:14 UTC; julian
+Packaged: 2012-05-06 11:20:26 UTC; julian
 Repository: CRAN
-Date/Publication: 2012-03-15 08:49:59
+Date/Publication: 2012-05-06 13:56:04

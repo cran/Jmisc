@@ -14,6 +14,7 @@
 sourceAll<-function(path=".",...){
 	file_list <- list.files(path=path)
 	file_list <-file_list[grep("*.r$|*.R$",file_list)]
+	file_list<-path%+%"/"%+%file_list
 	cat("Loading...\n")
 	junk<-lapply(file_list,function(x) {cat(" ",x,"\n");source(x,...) })	
 	cat("Done\n")

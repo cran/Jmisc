@@ -1,9 +1,12 @@
-da272761e39d206fa1479d04e56367f1 *ChangeLog
-16fbc06e9c676c43854613c5dbcfc5fe *DESCRIPTION
-57d9243f1d7b0716eafa3206117dc87c *NAMESPACE
+fbac7e96a0675d866f92392f4cb716d6 *ChangeLog
+1834d965841f4d9226ef039835f48798 *DESCRIPTION
+2c932bbbc3d66cbb691c8e6478b849d4 *NAMESPACE
 db2a1b36d58f7b0304ef6a94bad49912 *R/JBTest.r
 30ca1e7b884b5bd4922bdaf3566e066a *R/addCol.r
+c96118d81509e90b0381b9112fd6bd75 *R/charPlus.r
+41e6e74d4ef9d3724543afcaf888b1f0 *R/demean.r
 b5ef499e9b649b44b5db4ff81a0a4e4e *R/evalFunctionOnList.r
+cba64e9ca51504fb2ca744ae05b45696 *R/generateSignificance.r
 c7e850d7f78a5f0f1616b7ebf2291d81 *R/label_both_parsed_recode.r
 c0e148e39c7b78d85a59ec68fdbaeeb4 *R/oapply.r
 872d51f4a8237e84f05abc0a8ac34207 *R/packages.r
@@ -11,11 +14,15 @@ c0e148e39c7b78d85a59ec68fdbaeeb4 *R/oapply.r
 e85d67ea9ace038a6a960302801d8a93 *R/repCol.r
 fdd7c8f2adc2d9f694af25c7e04075c1 *R/repRow.r
 f6fcf4075e940e69320732eb6d45c1ff *R/shift.r
-fd70d93094ea0e7432ac70810cf39c7d *R/sourceAll.r
+62cf717c0458d209e4e25aa6d241cdc3 *R/sourceAll.r
+03e3b07a0de396647efa80b7de796ed5 *R/splitBy.r
 02f8708f6d198d1c7ffa65f8f9ebd75d *inst/tests/test_shift.r
 ab3296483a97d321b882056867f1fb6c *man/JBTest.Rd
 afa7e9e6e6ccb089b2aba288f450296d *man/addCol.Rd
+2497fc152779afd3c05ab53682e42507 *man/charPlus.Rd
+317bce17ead52a26be95df1fb52bbfc2 *man/demean.Rd
 53ef4ff304cb103d1aa1dddb78a4fd75 *man/evalFunctionOnList.Rd
+b8f4a9aa538dbbc6cf0914089ecbc3ef *man/generateSignificance.Rd
 f4d8b007aff16ff7ad138ec2542dec7a *man/label_both_parsed_recode.Rd
 89ab0d7ab955c81c9a4568b8270186fc *man/oapply.Rd
 fa0e6364383bd220c1a2f07b85b51047 *man/packages.Rd
@@ -24,3 +31,4 @@ ecaf80487e87e5bd5d67b09f597fac6d *man/recode.Rd
 399f39e9f7ed699aebe01aef600ae7e5 *man/repRow.Rd
 9625a85d668015be62af8d36ed63341b *man/shift.Rd
 bb59a60194b537b6d7bbeb90c41ae849 *man/sourceAll.Rd
+f407db171959649c38b7d18c5018ba39 *man/splitBy.Rd
