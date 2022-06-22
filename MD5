@@ -1,6 +1,6 @@
 0a9be28a6033b263bab4b0b0b7494afe *ChangeLog
-3398019eaa9054b741a7032730ea923a *DESCRIPTION
-08e47ee41afb17127a6ccfa11d973576 *NAMESPACE
+56a933e5ed42896ec37a0e91f02ac8f0 *DESCRIPTION
+39ae73df1d7ec149fd2116bc7a5f1bd0 *NAMESPACE
 db2a1b36d58f7b0304ef6a94bad49912 *R/JBTest.r
 30ca1e7b884b5bd4922bdaf3566e066a *R/addCol.r
 c96118d81509e90b0381b9112fd6bd75 *R/charPlus.r
@@ -24,7 +24,7 @@ e5a373888fedd50834f2c531d04959e4 *man/JBTest.Rd
 fd38bb4eff1f68c5d29d25c02bf212e6 *man/demean.Rd
 fe1150935548d32c5f9c700f89e7fd2f *man/evalFunctionOnList.Rd
 1576140860bc28373833b79163f77985 *man/generateSignificance.Rd
-b89d922ee1255ef096da8f3e16eb9888 *man/label_both_parsed_recode.Rd
+22fde0e7ead741f809ad08bbe85592ac *man/label_both_parsed_recode.Rd
 fc3e6ae382190c430ecc324f142cf2e0 *man/oapply.Rd
 50e7dd27986e58985c0e9c9c6da8233c *man/packages.Rd
 0f67772aa562fcb889b3de53381759b1 *man/recode.Rd

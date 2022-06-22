@@ -15,3 +15,6 @@ export(sourceAll)
 export(splitBy)
 export(tic)
 export(toc)
+
+importFrom("stats", "pchisq", "pnorm")
+importFrom("utils", "head", "install.packages", "tail")

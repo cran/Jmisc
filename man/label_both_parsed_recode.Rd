@@ -21,6 +21,6 @@ label_parsed in \pkg{ggplot2} for details.
 TszKin Julian Chan \email{ctszkin@gmail.com}
 }
 \references{
-\url{http://cran.r-project.org/web/packages/ggplot2/index.html}
+\url{https://CRAN.R-project.org/package=ggplot2}
 }
 
